@@ -1,0 +1,25 @@
+// tailwind.config.js
+module.exports = {
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        gold: {
+          50: '#fffaf0',
+          100: '#feebc8',
+          200: '#fbd38d',
+          300: '#f6ad55',
+          400: '#ed8936',
+          500: '#dd6b20',
+          600: '#c05621',
+          700: '#9c4221',
+          800: '#7b341e',
+          900: '#652b19',
+        },
+      },
+    },
+  },
+  plugins: [],
+}
